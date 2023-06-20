@@ -1,0 +1,104 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url('./img/b5d3b317a51996f4b49cd70924a4db35.jpg');
+    font-family: 'Bagel Fat One', cursiva;
+}
+.main{
+    background-color: rgb(39 45 55 / 68%);
+    width: 280px;
+    margin: auto;
+    height: 100%;
+}
+header{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+
+}
+h2{
+  color: white;
+}
+.buttonBtn{
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 19px;
+    margin: 3px;
+}
+.buttonBtn:hover{
+  background-color:rgb(38, 38, 72);
+  color: white;
+  transition: 0.6s;
+}
+.bloco-1{
+    display: flex;
+    justify-content: center;
+}
+.bloco-2{
+    display: flex;
+    justify-content: center;
+    
+}
+.bloco-3{
+    display: flex;
+    justify-content: center;
+    
+}
+.bloco-4{
+    display: flex;
+    justify-content: center;
+    
+}
+.div-buttonCalcular{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.buttonCalcular{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    background-color: rgb(246 249 255 / 17%);
+    color: white;
+}
+.buttonCalcular:hover{
+  background-color: rgb(145, 145, 232);
+  color: black;
+  transition: 0.5s;
+  border: 5px solid rgb(38, 38, 72);
+  
+}
+#injetora{
+    background-color: black;
+    width: 95px;
+    height: 35px;
+    margin: 10px 7px 10px 10px;
+}
+.inputs{
+    width: 80px;
+    margin: auto;
+}
+.inputs{
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.divAltura{
+    display: flex;
+    justify-content: center;
+    color: wheat;
+    margin: 5px 0px;
+}
+.divPeso{
+    display: flex;
+    justify-content: center;
+    color: wheat;
+    margin-left: 15px;
+}
