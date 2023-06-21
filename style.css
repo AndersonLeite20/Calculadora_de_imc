@@ -25,14 +25,14 @@ header{
 h2{
   color: white;
 }
-.buttonBtn{
+.buttonAut{
     width: 50px;
     height: 30px;
     border-radius: 30px;
     font-size: 19px;
     margin: 3px;
 }
-.buttonBtn:hover{
+.buttonAut:hover{
   background-color:rgb(38, 38, 72);
   color: white;
   transition: 0.6s;
@@ -101,4 +101,9 @@ h2{
     justify-content: center;
     color: wheat;
     margin-left: 15px;
+}
+.h2Result{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
