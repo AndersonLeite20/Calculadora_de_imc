@@ -6,14 +6,22 @@
     margin: 0px;
 }
 body{
-    background-image: url('./img/b5d3b317a51996f4b49cd70924a4db35.jpg');
+    background-color:#050b24;
     font-family: 'Bagel Fat One', cursiva;
 }
 .main{
-    background-color: rgb(39 45 55 / 68%);
-    width: 280px;
+    display: flex;
+    gap: 50px;
+    width: 100%;
     margin: auto;
     height: 100%;
+}
+section{
+    margin: 0px 50px;
+}
+#sectImg{
+    width: 150px;
+    height: 250px;
 }
 header{
     font-size: 20px;
@@ -61,14 +69,14 @@ h2{
     justify-content: center;
     margin: 10px;
 }
-.buttonCalcular{
+#buttonCalcular{
     width: 100px;
     height: 30px;
     margin: 10px;
     background-color: rgb(246 249 255 / 17%);
     color: white;
 }
-.buttonCalcular:hover{
+#buttonCalcular:hover{
   background-color: rgb(145, 145, 232);
   color: black;
   transition: 0.5s;
@@ -80,6 +88,10 @@ h2{
     width: 95px;
     height: 35px;
     margin: 10px 7px 10px 10px;
+}
+#aut, #pes{
+    text-align: center;
+    font-weight: 800;
 }
 .inputs{
     width: 80px;
@@ -106,4 +118,8 @@ h2{
     font-size: 20px;
     display: flex;
     justify-content: center;
+}
+#img{
+    height: 250px;
+    margin: 25px 20px;
 }
