@@ -1,9 +1,17 @@
 const divInj = document.getElementById('injetora')
 const  inputValor = document.getElementById('input')
-const inputAltura = document.getElementById('aut')
-const inputPeso = document.getElementById('pes')
+let inputAltura = document.getElementById('aut')
+let inputPeso = document.getElementById('pes')
 
 const caracteresPermitidos = ['0','1','2','3','4','5','6','7','8','9','.']
+
+document.querySelectorAll('.buttonAut').forEach(function(btnVal){
+    btnVal.addEventListener('click',function(){
+        const value = btnVal.dataset.value
+        inputAltura.value += value
+        
+    })
+})
 
 inputAltura.addEventListener('keydown',function(ev){
     ev.preventDefault()
